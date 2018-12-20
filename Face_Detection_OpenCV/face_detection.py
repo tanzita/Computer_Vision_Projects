@@ -26,7 +26,7 @@ def detect_face(image_path):
     
     # getting co ordinate of upper left corner, and weidth & height of the rectengle
     # i.e. detecting the face
-    faces = face_cascade.detectMultiScale(gray_image, 1.3, 5)# 1.1# scale factor => how much the size of the image going to reduce or how much the arnel size will increase.. min num of members
+    faces = face_cascade.detectMultiScale(gray_image, 1.3, 5)
     
     # for loop to itterate through faces and draw an rectangle
     for (x_f, y_f, width, height) in faces:
