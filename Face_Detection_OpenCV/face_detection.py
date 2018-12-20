@@ -46,5 +46,5 @@ def detect_face(image_path):
     return image
 
 image = detect_face(image_path)
-cv2.imshow('Faces Found', image)
+cv2.imshow('Faces Detected!', image)
 cv2.waitKey(0)
